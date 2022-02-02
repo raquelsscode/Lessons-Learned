@@ -1,17 +1,53 @@
 body {
-    background-color:rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
-    position:fixed;
-    top:0px;
-    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: chartreuse;
+    width: 100%;
+    ;
 }
+
+#titulo {
+    display: inline;
+    font-size: 50px;
+    padding-left: 3%;
+}
+
 #rodape {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     color: azure;
-background-color: chartreuse;
+    background-color: chartreuse;
 }
+
 p {
     line-height: 130%;
+    text-align: justify;
+}
+
+#main {
+    margin-top: 120px;
+}
+
+.menu {
+    display: inline;
+    font-size: 20px;
+}
+
+#nav {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: crimson;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#minha_foto {
+    border: 5px solid green;
+    border-style: dotted;
 }
