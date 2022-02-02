@@ -51,13 +51,15 @@ p {
     border-style: dotted;
 }
 
-.lado_esquerdo {
-    background-color: hotpink;
+.lado-esquerdo {
     position: absolute;
     width: 600px;
 }
 
-.lado_direito {
-    background-color: lawngreen;
-    margin-left: 600px;
+.lado-direito {
+    margin-left: 660px;
+}
+
+#table {
+    margin-top: 100px;
 }
