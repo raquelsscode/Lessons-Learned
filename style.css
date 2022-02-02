@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Montserrat:wght@400;500&family=Pacifico&display=swap');
 body {
     background-color: rgb(253, 251, 251);
 }
@@ -6,21 +7,23 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: chartreuse;
+    background-color: #c97b84ff;
     width: 100%;
+    z-index: 10;
 }
 
 #titulo {
     display: inline;
     font-size: 50px;
     padding-left: 3%;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 
 #rodape {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     color: azure;
-    background-color: chartreuse;
+    background-color: #c97b84ff;
 }
 
 p {
@@ -29,31 +32,33 @@ p {
 }
 
 #main {
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .menu {
     display: inline;
     font-size: 20px;
+    margin-left: 30px;
 }
 
 #nav {
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: crimson;
-    margin-top: 20px;
+    background-color: #a85751ff;
+    margin-top: 5px;
     width: 100%;
 }
 
 #minha_foto {
-    border: 5px solid green;
+    border: 5px solid black;
     border-style: dotted;
 }
 
 .lado-esquerdo {
     position: absolute;
     width: 600px;
+    z-index: 1;
 }
 
 .lado-direito {
@@ -62,4 +67,13 @@ p {
 
 #table {
     margin-top: 100px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
